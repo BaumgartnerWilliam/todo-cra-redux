@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`todo component matches the snapshot 1`] = `
+<div>
+  <div
+    class="col"
+  >
+    <form
+      class=""
+    >
+      <div
+        class="form-group"
+      >
+        <label
+          class="form-label"
+        >
+          Add Todo
+        </label>
+        <input
+          aria-label="add-todo-input"
+          class="form-control"
+          name="addTodo"
+          placeholder="my todo note"
+          value=""
+        />
+      </div>
+      <div>
+        <button
+          aria-label="submit-todo"
+          class="btn btn-primary"
+          disabled=""
+          type="submit"
+        >
+          Add
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;
